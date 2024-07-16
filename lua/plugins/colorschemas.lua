@@ -3,13 +3,14 @@ return {
   { 'ellisonleao/gruvbox.nvim', lazy = true },
   { 'rebelot/kanagawa.nvim', lazy = true },
   { 'sainnhe/sonokai', lazy = true },
-  { 'dracula/vim', lazy = true },
-  { 'catppuccin.nvim' },
+  { 'Mofiqul/dracula.nvim' },
+  { 'datsfilipe/min-theme.nvim' },
+  { 'catppuccin/nvim' },
 
   {
     'LazyVim/LazyVim',
     opts = {
-      colorscheme = 'catppuccin',
+      colorscheme = 'min-theme',
     },
     -- opts = function()
     --   -- load the colorscheme here

@@ -16,7 +16,7 @@ require('lazy').setup({
     -- Prettier  сохраняет файлы md, обрезая часть после 120 линии. Не понятно, почему.
     -- { import = "lazyvim.plugins.extras.lang.python" },
     -- { import = 'lazyvim.plugins.extras.test.core' },
-    -- { import = 'lazyvim.plugins.extras.lang.ruby' },
+    { import = 'lazyvim.plugins.extras.lang.ruby' },
     -- { import = 'lazyvim.plugins.extras.linting.eslint' },
     -- { import = 'lazyvim.plugins.extras.coding.yanky' },
     -- { import = 'lazyvim.plugins.extras.dap.core' },
@@ -24,7 +24,7 @@ require('lazy').setup({
     -- { import = 'lazyvim.plugins.extras.lsp.none-ls' },
     -- { import = "lazyvim.plugins.extras.formatting.prettierd" },
 
-    -- { import = "lazyvim.plugins.extras.lang.typescript" },
+    { import = 'lazyvim.plugins.extras.lang.typescript' },
     -- { import = "lazyvim.plugins.extras.lang.json" },
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
     -- import/override with your plugins

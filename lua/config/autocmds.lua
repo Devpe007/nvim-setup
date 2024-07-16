@@ -13,3 +13,11 @@
 --     vim.cmd('hi Normal guibg=NONE ctermbg=NONE')
 --   end,
 -- })
+--
+-- Adicione isso no seu init.lua ou em um arquivo de configuração apropriado
+vim.api.nvim_create_autocmd({ 'BufRead', 'BufNewFile' }, {
+  pattern = { '*.erb', '*.eruby' },
+  callback = function()
+    vim.bo.filetype = 'html'
+  end,
+})
